@@ -1,0 +1,142 @@
+body{ background:#202020;}
+
+.header{
+background:#FFFFFF;
+border-radius:5px 5px 0 0;
+}
+div.header span{
+float:left; 
+padding-left:13px;
+}
+div.header h3{
+float:right; 
+padding: 12px 0 0 0; 
+color:#FF3333; 
+font-weight:bold; 
+font-family:Arial, Helvetica, sans-serif; 
+margin:0;
+}
+div.header p{
+padding: 16px 16px 0 0;
+}
+div.header p i{
+font-size:22px;
+}
+.nav{
+padding:8px 0;}
+nav.nav ul li{
+float:left;
+text-decoration:none;
+list-style-type:none;
+}
+nav.nav ul li a{
+text-decoration:none;
+color:#FFFFFF;
+padding:5px 14px;
+display:block;
+}
+nav.nav ul li a:hover{
+color:#CCCCCC;
+}
+sidemenu{
+float:left;
+}
+.dash{
+padding:5px 0 5px 10px;
+color:#FFFFFF;
+background:#20B720;
+margin:0;
+border-radius:5px  5px 0 0;}
+.upd{
+background:#FF0000; 
+border:2px solid #660000;
+color:#FFFFFF; 
+font-weight:bold;}
+.lihead{
+list-style-type:none; 
+padding:20px 0 25px 20px; 
+font-size:22px; 
+color:#FF3333; 
+font-weight:bold;}
+.litext{
+list-style-type:none; 
+padding:5px 0 0 20px;}
+.menuhead{
+width:80%; 
+min-height:680px;
+float:right; 
+background-color:#FFFFFF; 
+border-radius:5px;}
+.sicial{
+font-size:16px; 
+font-weight:normal; 
+color:#666666;
+border:2px solid #00CCFF}
+.opt{
+border:1px solid #ddd;
+margin-bottom:5px;
+padding:5px;
+width:200px;
+font-size:16px;
+cursor:pointer;
+}
+
+.myform{
+width:100%;
+padding:20px;
+margin-top:25px;}
+
+.myform1{
+width:80%;
+margin:20px auto;
+margin-top:30px;
+background:#FFFFFF;
+border:1px solid #ddd; border-radius:6px;
+box-shadow:8px 8px 8px #ccc;
+padding:20px;}
+
+.tbl{
+width:100%;
+border:1px solid #00FFFF;
+/*padding:20px 10px;*/}
+.tbl td{
+padding:5px 10px;
+text-align:center;}
+.tbl tr th{
+background:#CCFFFF;
+font-weight:bold;
+text-align:center;
+color:#000033;
+}
+table.tbl tr:nth-child(2n+1){
+background:#FFCCCC;
+height:30px;}
+table.tbl tr:nth-child(2n){
+background:#FF99FF;
+height:30px;}
+.footer{
+background:#333333;
+border-radius:0;
+height:50px;
+padding:0;
+margin:0;
+}
+/*.tblone{
+width:80%;
+margin:20px auto;
+background:#FFFFFF;
+border:1px solid #ddd; border-radius:6px;
+box-shadow:8px 8px 8px #ccc;
+padding:20px;}*/
+input[type="text"],input[type="password"]{
+border:1px solid #ddd;
+margin-bottom:5px;
+padding:5px;
+width:60%;
+font-size:16px;
+}
+input[type="submit"]{
+cursor:pointer;
+margin:10px 10px;}
+.success{ color:#00FF66; font-size:18px; margin:10px 0 0 10px;}
+.error{ color:#FF0099; font-size:18px; margin:10px 0 0 10px;}
